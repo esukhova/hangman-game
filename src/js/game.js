@@ -101,7 +101,7 @@ export const startGame = () => {
 
   gameDiv.insertAdjacentHTML(
     "beforeend",
-    '<button id = "quit" class = "button-secondary px-2 py-1 mt-4">Quit</button>'
+    '<button id = "quit" class = "button-secondary px-2 py-1 mt-3">Quit</button>'
   );
   document.getElementById("quit").onclick = () => {
     const isSure = confirm("Are you sure you want to quit and lose progress?");
